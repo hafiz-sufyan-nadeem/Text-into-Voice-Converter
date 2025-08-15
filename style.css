@@ -84,3 +84,42 @@ select{
   background-position-x: calc(100% - 20px);
   background-position-y: 20px;
 }
+
+@media (max-width: 768px) {
+    textarea, .row {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    textarea {
+        height: 200px;
+        font-size: 14px;
+    }
+
+    select, button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 26px;
+    }
+
+    textarea {
+        height: 150px;
+        padding: 15px;
+    }
+
+    select, button {
+        font-size: 13px;
+        padding: 8px 15px;
+    }
+}
